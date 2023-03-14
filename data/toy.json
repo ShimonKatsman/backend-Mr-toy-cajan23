@@ -1,0 +1,71 @@
+[
+  {
+    "_id": "1xTg7",
+    "name": "sssssssssssss",
+    "price": 5,
+    "createdAt": 1678803805554
+  },
+  {
+    "name": "w",
+    "price": 2,
+    "_id": "jUbE4",
+    "createdAt": 1678803594268
+  },
+  {
+    "name": "2",
+    "price": 1,
+    "_id": "LXJcx",
+    "createdAt": 1678803505664
+  },
+  {
+    "name": "q",
+    "price": 1,
+    "_id": "FDwdc",
+    "createdAt": 1678803353689
+  },
+  {
+    "_id": "F7xoO",
+    "name": "Talking Doll",
+    "price": 123,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "inStock": true,
+    "createdAt": "14.3.2023, 16:14:49",
+    "reviews": [
+      "Good",
+      "Nice",
+      "Fun"
+    ]
+  },
+  {
+    "_id": "QV8vK",
+    "name": "Ball",
+    "price": 50,
+    "labels": [
+      "Outdoor",
+      "Baby"
+    ],
+    "inStock": true,
+    "createdAt": "14.3.2023, 16:14:49",
+    "reviews": [
+      "Amazing!"
+    ]
+  },
+  {
+    "_id": "CuQ1W",
+    "name": "Cards",
+    "price": 250,
+    "labels": [
+      "Box game"
+    ],
+    "inStock": true,
+    "createdAt": "14.3.2023, 16:14:49",
+    "reviews": [
+      "wow!",
+      "awesome"
+    ]
+  }
+]
