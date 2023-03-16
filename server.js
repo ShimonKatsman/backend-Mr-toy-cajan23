@@ -1,5 +1,7 @@
 const express = require('express')
 const cors = require('cors')
+const cookieParser = require('cookie-parser')
+const path = require('path')
 
 const app = express()
 const toyService = require('./services/toy.service')
@@ -16,10 +18,19 @@ const corsOptions = {
 app.use(cors(corsOptions))
 app.use(express.json())
 app.use(express.static('public'))
+app.use(cookieParser())
 
 app.listen(port, () => {
     console.log(`ToyApp listening on: http://localhost:${port}`)
 })
+
+const authRoutes = require('./api/auth/auth.routes')
+const userRoutes = require('./api/user/user.routes')
+const toyRoutes = require('./api/toy/toy.routes')
+
+app.use('/api/auth', authRoutes)
+app.use('/api/user', userRoutes)
+app.use('/api/toy', toyRoutes)
 
 app.get('/api/toy', (req, res) => {
     const filterBy = {
